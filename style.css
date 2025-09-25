@@ -4,6 +4,8 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
+
+
 h1,
 h2,
 h3 {
@@ -76,6 +78,7 @@ p {
   color: var(--primary-color);
   font-size: 28px;
   text-decoration: none;
+  margin: 20px;
 }
 
 .email-link:hover {
@@ -99,6 +102,10 @@ a:hover {
 .img-fluid {
   max-width: 100%;
   height: auto;
+}
+
+.contact-section {
+  margin: 60px;
 }
 
 /* Mobile device friendly  */
