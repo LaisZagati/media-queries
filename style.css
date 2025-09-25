@@ -100,3 +100,38 @@ a:hover {
   max-width: 100%;
   height: auto;
 }
+
+/* Mobile device friendly  */
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 32px;
+    line-height: 80px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  .navigation-links {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navigation-links a {
+    margin: 10px 0;j
+  }
+
+  .about-paragraphs {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-paragraphs p {
+    margin: 10px 20px;
+  }
+}
