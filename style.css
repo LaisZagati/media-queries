@@ -117,13 +117,13 @@ a:hover {
     font-size: 20px;
   }
 
+
   .navigation-links {
-    flex-direction: column;
-    align-items: center;
+    gap: 20px;
   }
 
   .navigation-links a {
-    margin: 10px 0;j
+    margin: 10px 0;
   }
 
   .about-paragraphs {
@@ -134,4 +134,10 @@ a:hover {
   .about-paragraphs p {
     margin: 10px 20px;
   }
+
+  .primary-link {
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    margin: 0 auto;}
 }
